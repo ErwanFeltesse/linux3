@@ -1,0 +1,6 @@
+  662  grep "France,2019,PHP" wilders.csv >> php_france_2019.csv
+  663  grep "JavaScript" wilders.csv >> intermediairejs.csv
+  664  grep "Biarritz\|Toulouse" intermediairejs.csv >> javascript_biarritz_toulouse.csv
+  665  history | tail -n 3
+  666  history | tail -n 5
+  667  history | tail -n 6 >> history.txt
